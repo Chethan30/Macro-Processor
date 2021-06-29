@@ -95,8 +95,8 @@ f.close()
 fo = open("output.txt",'w') #opening in write mode
 f = open("input.txt",'r') #opening in read mode 
 
-stack = [] #empty stack
-ala = [] #empty list 
+stack = [] #empty stack for level
+ala = [] #empty list for arguments
 pos = 0
 stack.append(sp) #storing pointer in stack i.e LEVEL
 

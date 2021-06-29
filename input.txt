@@ -1,0 +1,19 @@
+macro 
+abc &a &b 
+a 1 &b 
+st 1 &a 
+mend 
+macro 
+xyz &x &y &z 
+a 1 &x 
+abc &y &z 
+a 1 &y 
+macro 
+&z &x 
+p 1 &x 
+mend 
+mend 
+start 
+xyz m a n 
+n z 
+end 

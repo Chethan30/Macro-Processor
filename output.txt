@@ -1,0 +1,7 @@
+start 
+a 1 m 
+a 1 n 
+st 1 a 
+a 1 a 
+p 1 z 
+end 
